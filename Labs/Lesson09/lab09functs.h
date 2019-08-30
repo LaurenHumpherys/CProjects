@@ -22,6 +22,6 @@
 
 #endif //MYEXE_LAB09FUNCTS_H
 
-double volumeCylinder(int radius, int height);
-double volumeBox(int length, int width, int height1);
+double volumeCylinder(double radius, double height);
+double volumeBox(double length, double width, double height1);
 double degToRad(int degrees);
