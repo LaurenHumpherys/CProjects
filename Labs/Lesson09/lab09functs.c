@@ -1,13 +1,13 @@
 //lab09functs.c
 #include "lab09functs.h"
 
-double volumeCylinder(int r, int h) {
+double volumeCylinder(double r, double h) {
     double v;
     v = M_PI * r * r * h;
     return v;
 }
 
-double volumeBox(int l, int w, int h1)   {
+double volumeBox(double l, double w, double h1)   {
     double vb;
     vb = l * w * h1;
     return vb;
