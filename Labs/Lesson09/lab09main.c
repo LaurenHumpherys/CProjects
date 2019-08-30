@@ -17,15 +17,17 @@
 
 int main()  {
     double vol, vol1, radians1;
-    int rad, hei, len, wid, hei1, deg;
+    double rad, hei;
+    double len, wid, hei1;
+    int deg;
 
     printf("Enter cylinder radius followed by height:\n");
-    scanf("%d %d", &rad, &hei);
+    scanf("%lf %lf", &rad, &hei);
     vol = volumeCylinder(rad, hei);
     printf("The volume is %lf.\n", vol);
 
     printf("Enter box width followed by height followed by depth:\n");
-    scanf("%d %d %d", &len, &wid, &hei1);
+    scanf("%lf %lf %lf", &len, &wid, &hei1);
     vol1 = volumeBox(len, wid, hei1);
     printf("The volume is %lf.\n", vol1);
 
