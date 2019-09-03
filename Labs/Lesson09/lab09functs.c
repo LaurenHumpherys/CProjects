@@ -1,4 +1,11 @@
-//lab09functs.c
+/** lab09functs.c
+* ===========================================================
+* Name: Lauren Humpherys, 08/30/19
+* Section: M1A
+* Project: Lab 9 - Multiple Files, Debugging, and Testing
+* Purpose: Define all user-defined functions called in lab09main.c
+* ===========================================================
+*/
 #include "lab09functs.h"
 
 double volumeCylinder(double r, double h) {
