@@ -1,17 +1,10 @@
-/** lab09.c
+/** lab09functs.h
 * ===========================================================
 * Name: Lauren Humpherys, 08/30/19
 * Section: M1A
 * Project: Lab 9 - Multiple Files, Debugging, and Testing
-* Purpose:
+* Purpose: Header file to serve as initial instructions for processor
 * ===========================================================
-*/
-
-/**   ----------------------------------------------------------
-* <high level description of purpose of the function
-* including what the parameters are used for>
-* @param <explanation of each of the function parameters>
-* @return <explanation of what the function returns>
 */
 
 #ifndef LAB09EXE_LAB09FUNCTS_H
