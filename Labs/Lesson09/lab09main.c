@@ -1,18 +1,12 @@
 /** lab09main.c
 * ===========================================================
-* Name: Name, Date
-* Section:
-* Project:
-* Purpose:
+* Name: Lauren Humpherys, 08/30/19
+* Section: M1A
+* Project: Lab 09 - Multiple Files, Debugging, and Testing
+* Purpose: Main part of program to execute
 * ===========================================================
 */
 
-/**   ----------------------------------------------------------
-* <high level description of purpose of the function
-* including what the parameters are used for>
-* @param <explanation of each of the function parameters>
-* @return <explanation of what the function returns>
-*/
 #include "lab09functs.h"
 
 int main()  {
