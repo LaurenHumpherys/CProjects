@@ -55,7 +55,7 @@ int main()  {
         printf("A %c is the magic character @", magic);
     }
     else {
-        printf("A %c is NOT the magic character @", magic);
+        printf("A %c is NOT the magic character @.", magic);
     }
 
     return 0;
