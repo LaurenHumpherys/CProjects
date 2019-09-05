@@ -20,7 +20,7 @@ int main()  {
     bool answer, isMagicOrNot;
     int charType;
 
-    printf("Enter a single character to pass to isFirstHalfAlpha():\n");
+    printf("Enter a single character to pass to isFirstHalfAlpha():");
     scanf(" %c", &character);
     answer = isFirstHalfAlpha(character);
 
@@ -31,7 +31,7 @@ int main()  {
         printf("A %c is NOT in the first half of the alphabet.\n", character);
     }
 
-    printf("Enter a single character to pass to typeOfChar():\n");
+    printf("Enter a single character to pass to typeOfChar():");
     scanf(" %c", &input);
 
     charType = typeOfChar(input);
@@ -46,16 +46,16 @@ int main()  {
         printf("A %c is neither a vowel nor a consonant.\n", input);
     }
 
-    printf("Enter a single character to pass to isMagicChar():\n");
+    printf("Enter a single character to pass to isMagicChar():");
     scanf(" %c", &magic);
 
     isMagicOrNot = isMagicChar(magic);
 
     if (isMagicOrNot == true) {
-        printf("A %c is the magic character @", magic);
+        printf("A %c is the magic character @.\n", magic);
     }
     else {
-        printf("A %c is NOT the magic character @.", magic);
+        printf("A %c is NOT the magic character @.\n", magic);
     }
 
     return 0;
