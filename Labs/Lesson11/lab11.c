@@ -84,9 +84,9 @@ void floydsTriangle(int numRows)   {
     for (rowCount = 0; rowCount < numRows; rowCount++) {
         for (column = 0; column <= rowCount; column++) {
             if (((rowCount + column) % 2) == 0)
-                printf("0");
-            else
                 printf("1");
+            else
+                printf("0");
         }
         printf("\n");
     }
