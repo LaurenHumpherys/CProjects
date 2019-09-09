@@ -69,6 +69,7 @@ int isPrime(int userInput) {
     for (calc = 2; calc < userInput / 2; calc++) {
         return userInput % calc != 0 ? 1 : 0;
     }
+    return 0;
 }
 
 /**   ----------------------------------------------------------
