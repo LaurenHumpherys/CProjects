@@ -87,7 +87,7 @@ void floydsTriangle(int numRows)   {
                 printf("0");
             else
                 printf("1");
-            printf("\t");
+            printf("\n");
         }
         printf("\n");
     }
