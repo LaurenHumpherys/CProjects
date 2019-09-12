@@ -11,9 +11,9 @@
 int main()  {
 //EXERCISE 1: PASS BY VALUE
     int classYear, favNum;
-    printf("Enter your class year:\n");
+    printf("Please enter your class year:\n");
     scanf("%d", &classYear);
-    printf("Enter your favorite number:\n");
+    printf("Please enter your favorite integer:\n");
     scanf("%d", &favNum);
 
     swapPassByValue(classYear, favNum);
