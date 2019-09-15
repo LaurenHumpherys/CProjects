@@ -22,7 +22,7 @@ int main()  {
 
     int die, player, currentTotal, score0, score1;
     printf("Pips, Current total, Player 0 score, Player 1 score:\n");
-    scanf("%d %d %d %d", &die, &currentTotal, &score0, &score1);
+    scanf("%d %d %d %d %d", &die, &player, &currentTotal, &score0, &score1);
 
     turnStatus(die, player, currentTotal, score0, score1);
 
@@ -78,7 +78,7 @@ int rollDie()   {
 * @return <explanation of what the function returns>
 */
 void turnStatus(int die, int player, int currentTotal, int score0, int score1)  {
-    if (die = 1)    {
+    if (die == 1)    {
         printf("Player %d pigged out.\n", player);
     }
     currentTotal = score0 + score1;
