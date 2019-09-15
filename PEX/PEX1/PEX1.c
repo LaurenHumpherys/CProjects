@@ -6,7 +6,7 @@
 * Purpose:
 * ===========================================================
 */
-#include "PEX1.h"
+#include "pex1.h"
 
 int main()  {
     printf("Pig!\n\n");
