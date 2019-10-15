@@ -47,9 +47,9 @@ void getDataText(CadetInfoStructType *cadetRecords, int numRecs, char* dataFile)
     int i = 0;
     char lastName[20];
     while (!feof(in) && i < numRecs)  {
-        fscanf(in, "%s %s %d %d %d", cadetRecords[i].name, lastName, &cadetRecords[i].age, &cadetRecords[i].squad, &cadetRecords[i].year);
-        strcat(" ", cadetRecords[i].name);
-        strcat(lastName, cadetRecords[i].name);
+        fscanf(in, "%s %s %d %d %d", lastName, cadetRecords[i].name, &cadetRecords[i].age, &cadetRecords[i].squad, &cadetRecords[i].year);
+        strcat(cadetRecords[i].name, " ");
+        strcat(cadetRecords[i].name, lastName);
         ++i;
     }
 
@@ -57,19 +57,8 @@ void getDataText(CadetInfoStructType *cadetRecords, int numRecs, char* dataFile)
 }
 
 void printCadetInfo(CadetInfoStructType cadetRecords) {
-    for (int i = 0; i <= 123; i++) {
-        if (i == 1) {
-            printf("The first cadet is:\n");
-            printf("Cadet name: %s\n", cadetRecords.name);
-            printf("Cadet age: %d\n", cadetRecords.age);
-            printf("Cadet squad: %d\n", cadetRecords.squad);
-            printf("Cadet year: %d\n", cadetRecords.year);
-        } else if (i == 123) {
-            printf("The last cadet is:\n");
-            printf("Cadet name: %s\n", cadetRecords.name);
-            printf("Cadet age: %d\n", cadetRecords.age);
-            printf("Cadet squad: %d\n", cadetRecords.squad);
-            printf("Cadet year: %d\n", cadetRecords.year);
-        }
-    }
+    printf("Cadet name = %s\n", cadetRecords.name);
+    printf("Cadet age = %d\n", cadetRecords.age);
+    printf("Cadet squad = %d\n", cadetRecords.squad);
+    printf("Cadet year = %d\n", cadetRecords.year);
 }

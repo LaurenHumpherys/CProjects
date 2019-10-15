@@ -16,12 +16,16 @@ int main(void)  {
     int numRecs = getNumRecs(dataFile);
     printf("%d records in the data file.\n", numRecs);
 
-    CadetInfoStructType *cadetInfo = malloc(sizeof(CadetInfoStructType) * numRecs);
+    CadetInfoStructType *cadetInfo = (CadetInfoStructType*)malloc(sizeof(CadetInfoStructType) * numRecs);
 
     getDataText(cadetInfo, numRecs, dataFile);
 
+    printf("The first cadet is:\n");
     printCadetInfo(cadetInfo[0]);
+    printf("The last cadet is:\n");
     printCadetInfo(cadetInfo[numRecs - 1]);
+
+    free(cadetInfo);
 
 
 return 0;

@@ -45,6 +45,6 @@ void getDataText(CadetInfoStructType *cadetRecords, int numRecs, char *dataFile)
  * @return number of records in the file or -1 on error
  * ----------------------------------------------------------
  */
-void printCadetInfo(CadetInfoStructType cadetRecords) {
+void printCadetInfo(CadetInfoStructType cadetRecords);
 
 #endif //LESSON23_LAB23FUNCTS_H
