@@ -3,7 +3,7 @@
 * Name: Lauren Humpherys, 28 Oct 2019
 * Section: M1A
 * Project: Progamming Assessment 3 Practice
-* Documentation: DOC STATEMENT
+* Documentation: None.
 * ===========================================================  */
 #include "lab28.h"
 
