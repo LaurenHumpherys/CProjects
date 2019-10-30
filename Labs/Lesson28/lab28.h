@@ -14,10 +14,18 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+typedef struct EmployeeBD_struct{
+    char firstName[15];
+    char lastName[15];
+    char birthMonth[15];
+    int birthDate;
+}EmployeeBD;
+
 int getNumLines(char*);
-int numVowels(char* inputString);
+int numVowels(char* charArray);
 char* sortString(char* array);
-int readFile(char* filename, char* employeeData);
+int readFile(char filename[], EmployeeBD* empRecs, int numRecords);
+int IDEmpBDMonth(EmployeeBD* empRecs, int numRecords, int month);
 
 
 
